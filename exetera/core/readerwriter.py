@@ -379,6 +379,7 @@ class CategoricalWriter(Writer):
         # string:number
         self.keys = categories
 
+
     def chunk_factory(self, length):
         return np.zeros(length, dtype='int8')
 
